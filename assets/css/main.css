@@ -636,6 +636,7 @@ section,
   section,
   .section {
     scroll-margin-top: 66px;
+      background-color: transparent !important;
   }
 }
 
@@ -668,6 +669,7 @@ section,
   display: flex;
   align-items: center;
   justify-content: center;
+    background-color: transparent !important;
 }
 
 .hero h2 {
@@ -800,9 +802,10 @@ section,
   width: 40px;
   height: 40px;
   font-size: 24px;
-  color: color-mix(in srgb, var(--default-color), transparent 50%);
+  color: color-mix(in srgb, var(--default-color));
   margin-right: 10px;
   transition: 0.3s;
+    background-color: transparent !important;
 }
 
 .hero .social-links a:hover {
@@ -852,7 +855,8 @@ section,
 }
 
 .about .read-more:hover {
-  background: color-mix(in srgb, var(--accent-color), transparent 20%);
+  background: color-mix(in srgb, var(--accent-color));
+    background-color: transparent !important;
 }
 
 .about .read-more:hover i {
@@ -863,8 +867,9 @@ section,
 # Contact Section
 --------------------------------------------------------------*/
 .contact .info-item {
-  background: color-mix(in srgb, var(--default-color), transparent 96%);
+  background: color-mix(in srgb, var(--default-color));
   padding: 30px;
+    background-color: transparent !important;
 }
 
 .contact .info-item i {
