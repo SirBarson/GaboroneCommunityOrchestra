@@ -74,13 +74,15 @@ body {
 }
 
 body::before {
-  content: "";
+    content: "";
   position: absolute;
   left: 0;
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(34, 34, 34, 0.8);
+  background: rgba(34, 34, 34, 0.3); /* lighter overlay for readability */
+  pointer-events: none; /* so it doesn’t block clicks */
+  z-index: -1; /* behind content */
 }
 
 @media (min-width: 1366px) {
