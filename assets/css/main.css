@@ -461,6 +461,7 @@ h6 {
   font-size: 14px;
   padding: 40px 0;
   position: relative;
+    background-color: transparent !important;
 }
 
 .footer .copyright p {
